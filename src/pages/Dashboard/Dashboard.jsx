@@ -1,12 +1,25 @@
 import React from 'react'
-import Sidebar from '../../components/Sidebar/Sidebar'
+import HOC from '../../components/HOC/HOC'
+import TopDashboard from './TopDashboard'
+import MiddleDashboard from './MiddleDashboard'
+import BottomDashboard from './BottomDashboard'
 
 const Dashboard = () => {
     return (
         <>
-            <Sidebar/>
+            <div className='dashboardcontainer'>
+                <div className='dashboardtoppart'>
+                    <TopDashboard />
+                </div>
+                <div className='dashboardmiddlepart'>
+                    <MiddleDashboard />
+                </div>
+                <div className='dashboardbottompart'>
+                    <BottomDashboard />
+                </div>
+            </div>
         </>
     )
 }
 
-export default Dashboard
+export default HOC(Dashboard)

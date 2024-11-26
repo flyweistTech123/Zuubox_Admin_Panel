@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import './Sidebar.css'
 import img from '../../assest/sidelogo.png'
-import img1 from '../../assest/logosvg.svg'
 import { MdHome } from "react-icons/md";
 import { LuBarChart2 } from "react-icons/lu";
 import { FaLocationDot } from "react-icons/fa6";
@@ -14,22 +13,21 @@ import { FaUser } from "react-icons/fa";
 import { IoMdInformationCircle } from "react-icons/io";
 import { GoDeviceCameraVideo } from "react-icons/go";
 import { AiOutlineGlobal } from "react-icons/ai";
-import { CiCreditCard1 } from "react-icons/ci";
 import { BsFileEarmarkSpreadsheet } from "react-icons/bs";
-import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
 
 
 const Sidebar = () => {
+    const navigate  = useNavigate()
 
     const sidebarItems = [
         {
             name: "Dashboard",
-            icon: <MdHome  />,
+            icon: <MdHome />,
             link: "/dashboard"
         },
         {
             name: "Logo",
-            icon: <MdHome  />,
+            icon: <MdHome />,
             link: "/job-management"
         },
         {
@@ -85,6 +83,10 @@ const Sidebar = () => {
 
     ];
 
+    const logout =()=>{
+        navigate('/')
+    }
+
 
     return (
         <>
@@ -107,6 +109,9 @@ const Sidebar = () => {
                             <p>{item.name}</p>
                         </NavLink>
                     ))}
+                </div>
+                <div className='sidelogoutbtn'>
+                    <button onClick={logout}>Logout</button>
                 </div>
             </div>
 

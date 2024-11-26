@@ -1,6 +1,6 @@
 .sidebarcontainer {
-    width: 204.87px;
-    /* max-width: 240px; */
+    width: auto;
+    max-width: 204.87px;
     height: 1249px;
     background: #121212;
     border-right: 0.71px solid #FFFFFF;
@@ -105,4 +105,30 @@
 .sideitem:hover svg {
     background-color: #FFFFFF;
     color: #121212;
+}
+
+
+
+.sidelogoutbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+.sidelogoutbtn button {
+    width: 176.61px;
+    height: 36.74px;
+    border-radius: 7.08px;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14.13px;
+    line-height: 29.34px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }

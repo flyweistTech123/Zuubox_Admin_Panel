@@ -1,0 +1,465 @@
+/* Dashboard css  */
+
+.dashboardcontainer {}
+
+
+
+
+.topdashboardcontainer {}
+
+
+.topdashboard {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.topdashboarddiv {
+    width: auto;
+    max-width: 249px;
+    height: 80px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    padding: 0 1.5rem 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+
+
+.topdashboardicon {
+    width: 56px;
+    height: 56px;
+    border: 1px solid #FFFFFF2B;
+    background: #0A0A0A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.topdashboardcontent {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.topdashboardcontent p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 0;
+}
+
+.topdashboardcontent h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 0;
+}
+
+.topdashboardselectcontory {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+
+.topdashboardselected {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.topdashboardselected img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dashboardmiddlepart {
+    margin-top: 1rem;
+}
+
+
+.middledashboardcontainer {}
+
+.middledashboardsubcontainer {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.middledashboardleft {
+    width: 70%;
+    height: auto;
+    border-radius: 21.51px;
+    background: #FFFFFF;
+    padding: 2rem;
+    display: flex;
+}
+
+
+.middledashboardleftcontent {
+    /* border: 1px solid blue; */
+    max-width: 30%;
+}
+
+
+.middledashboardleftmonth {
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    width: 132.27px;
+    height: 39.79px;
+    border-radius: 7.53px;
+    background: #FFFFFF;
+    padding-left: 0.5rem;
+    box-shadow: 0px 2.15px 6.45px 2.15px #00000026;
+    box-shadow: 0px 1.08px 2.15px 0px #0000004D;
+}
+
+.middledashboardleftmonth select {
+    font-weight: 500;
+    font-size: 15.06px;
+    line-height: 25.81px;
+    letter-spacing: -0.02em;
+    color: #010101;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+.middledashboardleftmonth select option {
+    font-weight: 500;
+    font-size: 15.06px;
+    line-height: 25.81px;
+    letter-spacing: -0.02em;
+    color: #010101;
+    margin: 0;
+}
+
+
+.middledashboardleftamount {
+    margin-top: 1.5rem;
+}
+
+
+.middledashboardleftamounttotal {}
+
+.middledashboardleftamounttotal h6 {
+    font-weight: 700;
+    font-size: 36.56px;
+    line-height: 45.17px;
+    letter-spacing: -0.02em;
+    color: #121212;
+    margin: 0;
+}
+
+.middledashboardleftamounttotal p {
+    font-weight: 500;
+    font-size: 16.06px;
+    line-height: 25.81px;
+    letter-spacing: -0.02em;
+    color: #121212;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.middledashboardleftamounttotal span {
+    font-weight: 700;
+    font-size: 13.9px;
+    line-height: 21.51px;
+    letter-spacing: -0.02em;
+    color: #121212;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.middledashboardleftlastmonth {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+
+.middledashboardleftlastmonth h6 {
+    font-weight: 700;
+    font-size: 14.06px;
+    line-height: 22.85px;
+    letter-spacing: -0.02em;
+    color: #121212;
+    margin: 0;
+}
+
+.middledashboardleftchart {
+    /* border: 1px solid red; */
+    flex: 1;
+}
+
+
+.middledashboardright {
+    width: 30%;
+    height: auto;
+    border-radius: 21.51px;
+    background: #FFFFFF;
+    padding: 2rem;
+}
+
+.middledashboardrightheading {}
+
+.middledashboardrightheading h6 {
+    font-weight: 700;
+    font-size: 25.81px;
+    line-height: 25.81px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 0;
+}
+
+
+.middledashboardrightamounttotal {
+    margin-top: 1.5rem;
+}
+
+
+.middledashboardrightamount {}
+
+.middledashboardrightamount h4 {
+    font-weight: 700;
+    font-size: 50.23px;
+    line-height: 76.87px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 0;
+}
+
+.middledashboardrightamount p {
+    font-weight: 500;
+    font-size: 22.62px;
+    line-height: 43.92px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 0;
+}
+
+.middledashboardrightamount span {
+    font-weight: 700;
+    font-size: 21.96px;
+    line-height: 36.6px;
+    letter-spacing: -0.02em;
+    color: #121212;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.middledashboardrightlastmonth {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.middledashboardrightlastmonth h6 {
+    font-weight: 700;
+    font-size: 22.22px;
+    line-height: 38.88px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 0;
+}
+
+
+.dashboardbottompart {
+    margin-top: 1rem;
+}
+
+
+.bottomdashboardcontainer {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.bottomdashboardfirstdiv {
+    width: 50%;
+    height: auto;
+    border-radius: 17.42px;
+    background: #FFFFFF;
+    padding: 1.5rem;
+}
+
+
+.bottomdashboardheading {}
+
+.bottomdashboardheading h6 {
+    font-weight: 700;
+    font-size: 20.9px;
+    line-height: 27.87px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 0;
+}
+
+
+.bottomdashboardtable {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.bottomdashboardtable table {
+    width: 100%;
+}
+
+.bottomdashboardtable table thead th {
+    font-weight: 500;
+    font-size: 12.19px;
+    line-height: 20.9px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-align: left;
+    padding: 8px;
+
+}
+
+.bottomdashboardtable table tbody td {
+    font-weight: 700;
+    font-size: 12.19px;
+    line-height: 20.9px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-align: left;
+    padding: 5px;
+}
+
+.bottomdashboardtablecheck {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.bottomdashboardtablecheck label {
+    font-weight: 700;
+    font-size: 12.19px;
+    line-height: 20.9px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+
+.bottomdashboardseconddiv {
+    width: 20%;
+    height: auto;
+    border-radius: 17.33px;
+    background: #FFFFFF;
+    padding: 1.5rem;
+}
+
+
+.bottomdashboardseconddivheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.bottomdashboardsecondleftcontent {}
+
+.bottomdashboardsecondleftcontent span {
+    font-weight: 500;
+    font-size: 12.19px;
+    line-height: 20.9px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #000000;
+}
+
+.bottomdashboardsecondleftcontent h6 {
+    font-weight: 700;
+    font-size: 29.47px;
+    line-height: 36.4px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #000000;
+}
+
+
+.bottomdashboardsecondrightcontent {
+    display: flex;
+    align-items: center;
+}
+
+.bottomdashboardsecondrightcontent p {
+    font-weight: 700;
+    font-size: 10.4px;
+    line-height: 17.33px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #01B529;
+}
+
+
+
+.bottomdashboardthirddiv {
+    width: 20%;
+    height: auto;
+    border-radius: 17.39px;
+    background: #FFFFFF;
+    padding: 1.5rem;
+}
+
+.bottomdashboardthirddivheading {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bottomdashboardthirddivheading h6 {
+    font-weight: 700;
+    font-size: 15.65px;
+    line-height: 26.09px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #000000;
+}
+
+
+.bottomdashboardthirddivcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+
+.bottomdashboardthirddivcheck {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bottomdashboardthirddivcheck h6 {
+    font-weight: 500;
+    font-size: 13.91px;
+    line-height: 24.35px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #000000;
+}

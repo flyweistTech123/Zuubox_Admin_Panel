@@ -5,7 +5,7 @@
 }
 
 .sidebar55 {
-    width: 18%;
+    max-width: 18%;
     flex: 0 0 auto;
     transition: width 0.3s ease;
 }
@@ -15,12 +15,12 @@
     display: flex;
     flex-direction: column;
     transition: margin-left 0.3s ease;
-    width: 80%;
+    padding: 20px;
 }
 
 .child-component {
-    padding: 20px;
     transition: width 0.3s ease;
+    margin-top: 1rem;
 }
 
 .sidebar-hidden .content {
