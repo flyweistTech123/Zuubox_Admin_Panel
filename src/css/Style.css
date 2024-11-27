@@ -12,12 +12,14 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); */
     gap: 1rem;
 }
 
 .topdashboarddiv {
     width: auto;
-    max-width: 249px;
+    /* max-width: 309px; */
     height: 80px;
     border-radius: 20px;
     background: #FFFFFF;
@@ -463,3 +465,449 @@
     margin: 0;
     color: #000000;
 }
+
+
+
+/* Logo */
+
+.logocontainer {}
+
+.logosubcontainer {
+    display: flex;
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+
+.logoleftcontainer {
+    width: auto;
+    height: auto;
+    border-radius: 21.45px;
+    background: #FFFFFF;
+    padding: 1rem;
+    flex: 1;
+}
+
+
+
+.logolefticon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logoleftheading {}
+
+.logoleftheading h6 {
+    font-weight: 400;
+    font-size: 23.58px;
+    line-height: 40.42px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #05342F;
+}
+
+
+
+
+.logoleftupload {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+
+.logoleftuploadleft {
+    width: 50%;
+}
+
+.logoleftuploadleftimage {
+    width: 100%;
+    height: 233px;
+    border-radius: 9.2px;
+    border: 0.92px solid #A7A7A780;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logoleftuploadleft p {
+    font-weight: 300;
+    font-size: 12.01px;
+    line-height: 21.02px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #000000;
+    font-style: italic;
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
+
+.logoleftlastright {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+
+.logoleftlastrightdate h6 {
+    font-weight: 500;
+    font-size: 22.34px;
+    line-height: 23.31px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #010101;
+}
+
+
+.logoleftlastrightbuttonchoose {}
+
+.logoleftlastrightbuttonchoose button {
+    width: auto;
+    padding: 7px 18px 7px 18px;
+    height: auto;
+    border-radius: 27.79px;
+    background: #FFFFFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 14.51px;
+    line-height: 25.39px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #EF682E;
+    cursor: pointer;
+}
+
+.logoleftlastrightbuttonchoose button:hover {
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
+
+
+
+.logoleftlastrightbutton {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+}
+
+.logoleftlastrightbutton button {
+    width: 105.79px;
+    height: 38.36px;
+    border-radius: 24.56px;
+    background: #FFFFFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 12.83px;
+    line-height: 22.45px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #01B529;
+    cursor: pointer;
+}
+
+.logoleftlastrightbutton button:hover {
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
+
+.logorightcontainer {
+    width: 30%;
+    height: auto;
+    border-radius: 21.45px;
+    background: #FFFFFF;
+    padding: 1rem;
+}
+
+
+
+
+.logorightcontainerimage {
+    width: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.logorightcontainerimagelogo {
+    width: 100%;
+    height: 179px;
+    border-radius: 9.2px;
+    border: 0.92px;
+    background: #CFCFCF66;
+    border: 0.92px solid #CFCFCF80;
+    padding: 0.5rem;
+}
+
+.logorightcontainerimagelogo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.logorightcontainerimagebutton {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+/* cell */
+
+.cellContainer {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.cellContainer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cellContainer table thead {
+    border-top: 1.17px solid #E4E4E4;
+    border-bottom: 1.17px solid #E4E4E4;
+}
+
+.cellContainer table thead th {
+    font-weight: 700;
+    font-size: 17.6px;
+    line-height: 27.75px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #05342F;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+
+
+.cellContainer table tbody td {
+    font-weight: 700;
+    font-size: 14.08px;
+    line-height: 27.75px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #05342F;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1.17px solid #E4E4E4;
+    border-left: none;
+    padding-left: 1rem;
+}
+
+.cellContainer table tbody td:last-child {
+    border-right: none;
+}
+
+.cellpagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.cellpagination p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+}
+
+.cellpagination p span {
+    width: auto;
+    height: auto;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    border-radius: 5.43px;
+    font-weight: 500;
+    font-size: 12.83px;
+    line-height: 22.45px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.addcellcontainerright {
+    width: 30%;
+    height: 100%;
+    border-radius: 21.45px;
+    background: #FFFFFF;
+    padding: 1rem;
+}
+
+
+.addcellicon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-width: 3px;
+    border-style: solid;
+    border-image-source: linear-gradient(90deg, #FFFFFF 0%, #3BD9C9 50%, #FFFFFF 100%);
+    border-image-slice: 1;
+    border-top: none;
+    padding-bottom: 0.5rem;
+}
+
+.addcellinputscontainer{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.addcellinputes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.addcellinputes label {
+    font-weight: 400;
+    font-size: 15.8px;
+    line-height: 23.66px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #05342F;
+}
+
+.addcellinputes input {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #05343057;
+    outline: none;
+    padding-left: 0.5rem;
+    font-weight: 400;
+    font-size: 13.8px;
+    line-height: 23.66px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: #05342F;
+}
+
+.celladdbutton{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .middledashboardleft {
+        padding: 1rem;
+    }
+
+    .middledashboardleftamounttotal h6 {
+        font-size: 30.56px;
+    }
+
+    .middledashboardleftamounttotal p {
+        font-size: 13.56px;
+        gap: 0.4rem;
+    }
+
+    .middledashboardleftlastmonth h6 {
+        font-size: 12.06px;
+    }
+
+    .middledashboardright {
+        padding: 1rem;
+    }
+
+    .middledashboardrightheading h6 {
+        font-size: 20.81px;
+    }
+
+    .middledashboardrightamount h4 {
+        font-size: 35.23px;
+    }
+
+    .middledashboardrightamount p {
+        font-size: 18.62px;
+    }
+
+    .middledashboardrightamount span {
+        font-size: 18.96px;
+    }
+
+    .middledashboardrightlastmonth h6 {
+        font-size: 15.22px;
+    }
+
+    .bottomdashboardfirstdiv {
+        padding: 1rem;
+    }
+
+    .bottomdashboardtable {
+        overflow: auto;
+    }
+
+    .bottomdashboardtable table {
+        overflow: auto;
+    }
+
+    .bottomdashboardseconddiv {
+        padding: 1rem;
+    }
+
+    .bottomdashboardthirddiv {
+        padding: 1rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .topdashboarddiv {
+        width: 90%;
+        padding-right: 0;
+    }
+
+    .middledashboardsubcontainer {
+        flex-direction: column;
+    }
+
+    .middledashboardleft {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .middledashboardleftcontent {
+        max-width: 100%;
+    }
+
+    .middledashboardright {
+        width: 90%;
+    }
+
+    .bottomdashboardcontainer {
+        flex-direction: column;
+    }
+
+    .bottomdashboardfirstdiv {
+        width: 90%;
+    }
+
+    .bottomdashboardseconddiv {
+        width: 90%;
+    }
+
+    .bottomdashboardthirddiv {
+        width: 90%;
+    }
+}
+
+@media (max-width: 360px) {}

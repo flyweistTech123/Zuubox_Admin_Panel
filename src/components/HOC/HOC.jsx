@@ -5,7 +5,7 @@ import Navbar from "../Navbar/Navbar";
 
 
 const HOC = (WrappedComponent) => {
-    const Component = () => {
+    const Component = (props) => {
         const [show, setShow] = useState(true);
         const toggleSidebar = () => setShow(prevShow => !prevShow);
 
@@ -17,9 +17,9 @@ const HOC = (WrappedComponent) => {
                     </div>
                 )}
                 <div className="content">
-                    <Navbar show={show} toggleSidebar={toggleSidebar} />
+                    <Navbar show={show} toggleSidebar={toggleSidebar} text={props.text}/>
                     <div className={`child-component ${show ? '' : 'child-component-hidden'}`}>
-                        <WrappedComponent />
+                        <WrappedComponent {...props}/>
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@ import { BsFileEarmarkSpreadsheet } from "react-icons/bs";
 
 
 const Sidebar = () => {
-    const navigate  = useNavigate()
+    const navigate = useNavigate()
 
     const sidebarItems = [
         {
@@ -28,17 +28,22 @@ const Sidebar = () => {
         {
             name: "Logo",
             icon: <MdHome />,
-            link: "/job-management"
+            link: "/logo"
         },
         {
             name: "Cell",
             icon: <LuBarChart2 />,
-            link: "/orders"
+            link: "/cell"
         },
         {
             name: "Places",
             icon: <FaLocationDot />,
-            link: "/voucher-Offers"
+            link: "/places"
+        },
+        {
+            name: "Country & City",
+            icon: <FaLocationDot />,
+            link: "/country&city"
         },
         {
             name: "Skill Catagory",
@@ -83,7 +88,7 @@ const Sidebar = () => {
 
     ];
 
-    const logout =()=>{
+    const logout = () => {
         navigate('/')
     }
 

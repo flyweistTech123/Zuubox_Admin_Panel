@@ -30,3 +30,18 @@
 .sidebar-hidden .child-component {
     width: 100%;
 }
+
+@media (max-width: 868px) {
+    .sidebar55 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar55 {
+        display: none;
+    }
+    .content {
+        padding: 15px;
+    }
+}

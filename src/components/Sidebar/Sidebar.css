@@ -40,7 +40,7 @@
 
 
 .sideitemactive {
-    width: auto;
+    width: 100%;
     height: 36.74px;
     border-radius: 7.08px;
     background: #FFFFFF;
@@ -69,7 +69,7 @@
 
 
 .sideitem {
-    width: 176.61px;
+    width: 100%;
     height: 36.74px;
     border-radius: 7.08px;
     background-color: transparent;
@@ -100,14 +100,16 @@
 }
 
 
-.sideitem:hover,
-.sideitem p:hover,
-.sideitem:hover svg {
+/* Hover State */
+.sideitem:hover {
     background-color: #FFFFFF;
-    color: #121212;
 }
 
-
+.sideitem:hover svg,
+.sideitem:hover p {
+    color: #121212;
+    /* Adjust to match the intended hover color */
+}
 
 .sidelogoutbtn {
     display: flex;
